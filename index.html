@@ -23,31 +23,6 @@
 <!-- Main container -->
 <div class="page-container">
     
-
-
-<!-- bloc-1 -->
-<div class="bloc bgc-white tc-white bg-student3 d-bloc" id="bloc-1">
-	<!-- <div class="bloc-lg"> -->
-	<img src="img/banner4.png">
-	<!-- 	<div class="row">
-			<div class="col-sm-12">
-				<h1 class="mg-md  tc-white">
-					Create the life you love to live
-				</h1>
-				<p>
-					How to turn what you love to do into a real life job.
-				</p>
-				<blockquote class="blockquote-reverse">
-					<p class="mg-lg">
-						Finally, I know what&rsquo;s next for me! - Jason Sudeikis
-					</p>
-				</blockquote>
-			</div>
-		</div> -->
-<!-- 	</div> -->
-</div>
-<!-- bloc-1 END -->
-
 <!-- Navigation Bloc -->
 <div class="bloc l-bloc bgc-white" id="nav-bloc">
 	<div class="container bloc-sm">
@@ -78,6 +53,31 @@
 	</div>
 </div>
 <!-- Navigation Bloc END -->
+
+<!-- bloc-1 -->
+<div class="bloc bgc-white tc-white bg-student3 d-bloc" id="bloc-1">
+	<!-- <div class="bloc-lg"> -->
+	<img src="img/banner4.png">
+	<!-- 	<div class="row">
+			<div class="col-sm-12">
+				<h1 class="mg-md  tc-white">
+					Create the life you love to live
+				</h1>
+				<p>
+					How to turn what you love to do into a real life job.
+				</p>
+				<blockquote class="blockquote-reverse">
+					<p class="mg-lg">
+						Finally, I know what&rsquo;s next for me! - Jason Sudeikis
+					</p>
+				</blockquote>
+			</div>
+		</div> -->
+<!-- 	</div> -->
+</div>
+<!-- bloc-1 END -->
+
+
 
 <!-- bloc-2 -->
 <!-- <div class="bloc l-bloc bgc-white b-parallax" id="bloc-2">
@@ -122,7 +122,7 @@
 	  <button class="prev">&lt;</button>
 	</div>
 	<div class="col-sm-10">
-	  <div class="bxslider1">
+	  <div class="bxslider1 auto">
 		<ul>
   			<li>
   				<!-- <div class="col-sm-4"> -->
@@ -266,14 +266,14 @@ $(function() {
 	</div>
   </div>
 </div>
-<div class="bxslider2 container">
+<div class="bxslider2 container auto">
 <ul>
   <li><p>From Passion to Paycheck was an awesome workshop! I loved how Jasmine included everyone in her talk and asked the group to share their passions out loud as well as write them down with an action plan of something we will do TODAY to get closer to our passions. I also loved the workbook she created for the workshop. It gave me something to look back at and see my progress. I highly recommend attending her workshop! -<em>Lexi Bouchard, Motivational Speaker</em></p></li>
   <li><p>"Passion to Paycheck" was insightful, light-hearted, and engaging. Jasmine does a great job of breaking down concepts to be easily digestible and interesting. I left feeling empowered to pursue the clients I most desire versus falling subject to taking any project that comes my way.” -<em>Paige Southard, Full-time Freelance Writer</em></p></li>
 <!--   <li><img src="js/jquery.bxslider/images/pic3.jpg" /></li>
   <li><img src="js/jquery.bxslider/images/controls.png" /></li> -->
 </ul>
-<div class="carButton col-sm-6">
+<div class="carButton col-sm-4">
 	<button class="prev">&lt;</button>
 	<button class="next">&gt;</button>
 </div>
@@ -284,6 +284,15 @@ $(function() {
     $(".bxslider2").jCarouselLite({
         btnNext: ".next",
         btnPrev: ".prev"
+    });
+});
+</script>
+
+<script type="text/javascript">
+$(function() {
+    $(".auto").jCarouselLite({
+        auto: "10000",
+        speed: "800"
     });
 });
 </script>
