@@ -202,13 +202,28 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 #bloc-2 p{
 	font-size: 18px;
+	max-width: 740px;
+	display: block;
+	margin: 0 auto;
 }
-#bloc-4 h3{
+
+.introCopy ul {
+	padding: 10px 40px;
+}
+
+.introCopy li {
+	padding: 10px 0;
+	font-size: 1.1em;
+	font-weight: 300;
+	font-family: "Lato";
+}
+
+#bloc-4 h3 {
 	font-size: 33px;
 	line-height: 36px;
 	font-family: Lato;
 	font-weight: 300;
-	margin: 150px 0px 25px 0px;
+	margin: 80px 0px 25px 0px;
 }
 
 #bloc-6 h3{
@@ -220,6 +235,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 .gallery {
 	margin: 0 auto;
+}
+
+.aboutCopy {
+	max-width: 540px;
 }
 
 #bloc-7 {
@@ -342,7 +361,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .nav > li{
 	float:left;
 	margin-top:10px;
-	font-size:28px;
+	font-size:21px;
 }
 .navbar-nav .open .dropdown-menu > li > a{
 	text-align: inherit;
