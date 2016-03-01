@@ -249,7 +249,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 
 .aboutCopy {
-	max-width: 540px;
+	max-width: 90%;
 	font-size: 1.2em;
 }
 
