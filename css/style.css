@@ -184,10 +184,16 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Bloc text custom styling */
 
+#bloc-1 {
+	font-family: Lato;
+	font-weight: 700;
+	}
+
 #bloc-1 h1{
 	font-family: Lato;
 	font-weight: 700;
 }
+
 #bloc-1 p{
 	font-size: 24px;
 }
@@ -200,11 +206,16 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	border-bottom: solid gray 3px;
 }
 
+#bloc-2 {
+	margin: 40px auto 100px auto;
+}
+
 #bloc-2 p{
 	font-size: 18px;
 	max-width: 740px;
 	display: block;
 	margin: 0 auto;
+	padding-bottom: 20px;
 }
 
 .introCopy ul {
@@ -239,10 +250,12 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 .aboutCopy {
 	max-width: 540px;
+	font-size: 1.2em;
 }
 
 #bloc-7 {
 	padding: 30px 0;
+	margin-top: 50px;
 }
 
 #bloc-8 h1{
@@ -270,22 +283,31 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	padding-top: 25px;
 }
 
-.tourbtns {
+/*.tourbtns {
 	padding-top: 100px;
 }
-
+*/
 .bxslider1 {
-	max-width: 900px;
-	margin: 0 auto;
+	max-width: 1000px;
+	margin: 0 auto -60px auto;
 }
 
 .bxslider1 li {
-	max-width: 300px;
+	max-width: 250px;
+}
+
+.bxslider1 img {
+	margin: 0 auto;
+}
+
+.bxslider1 p {
+	font-size: 1.2em;
 }
 
 .bxslider2 p {
 	text-align: center;
 	padding: 20px 50px;
+	font-size: 1.2em;
 }
 
 .bxslider2 button {
@@ -723,5 +745,12 @@ iframe{
     }
     .video-bg-contianer{
         display:none;
+    }
+    .tourbtns {
+    	padding: none;
+    }
+    .bxslider1 li {
+    	max-width: 250px;
+    	margin: 0 -20px;
     }
 }
