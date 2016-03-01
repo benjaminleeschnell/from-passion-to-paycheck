@@ -410,6 +410,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .nav-invert .navbar-header, .nav-invert .navbar-brand{
 	float:right;
 }
+
 @media (min-width: 768px){
 	.site-navigation{
 		position:absolute;
@@ -595,6 +596,17 @@ iframe{
 	margin: 25px 0 15px 0;
 }
 
+@media (max-width: 1000px){
+	.site-navigation{
+		position:relative;
+		margin-top: 20px;
+		margin-bottom: -30px;
+		/*top:50%;
+		right:20px;
+		transform:translate(0, -50%);
+		-webkit-transform:translateY(-50%);*/
+	}
+}
 
 
 /* = Mobile adjustments 
