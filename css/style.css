@@ -113,10 +113,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	border-color:rgba(255,255,255,1);
 }
 .d-bloc .panel{
-	color:rgba(0,0,0,.5);
+	color:rgba(0,0,0, 0.8);
 }
 .d-bloc .panel button:hover{
-	color:rgba(0,0,0,.7);
+	color:rgba(0,0,0, 0.8);
 }
 .d-bloc .panel h1,.d-bloc .panel h2, .d-bloc .panel h3, .d-bloc .panel h4, .d-bloc .panel h5, .d-bloc .panel h6, .d-bloc .ico{
 	color:rgba(0,0,0,.7);
@@ -142,7 +142,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 /* Light theme */
 
 .l-bloc{
-	color:rgba(0,0,0,.5);
+	color:rgba(0,0,0,.8);
 }
 .l-bloc button:hover{
 	color:rgba(0,0,0,.7);
@@ -220,6 +220,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 .introCopy ul {
 	padding: 10px 40px;
+	font-size: 1.1em;
 }
 
 .introCopy li {
@@ -287,54 +288,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	padding-top: 100px;
 }
 */
-.bxslider1 {
-	max-width: 1000px;
-	margin: 0 auto -60px auto;
-}
 
-.bxslider1 li {
-	max-width: 250px;
+.carousel img {
+	max-height: 200px;
 }
-
-.bxslider1 img {
-	margin: 0 auto;
-}
-
-.bxslider1 p {
-	font-size: 1.2em;
-}
-
-.bxslider2 p {
-	text-align: center;
-	padding: 20px 50px;
-	font-size: 1.2em;
-}
-
-.bxslider2 button {
-	text-align: center;
-	margin: 0 auto;
-}
-
-.carButton {
-	display: block;
-	margin: 0 auto;
-	text-align: center;
-	padding-bottom: 40px;
-}
-
-/* button styles */
- 
-.prev, .next {
-    background-color: gainsboro;
-    color: gray;
-    border: none;
-    font-size: 1.3em;
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-}
-
-/* end button styles */
 
 
 
